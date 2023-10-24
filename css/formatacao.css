@@ -8,3 +8,11 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-bottom: .8em;
+}
