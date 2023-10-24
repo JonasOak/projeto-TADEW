@@ -1,13 +1,19 @@
 criar o header
 criar a barra de navegação
 criar o footer
+definir a imagem da torre eiffel que será usada como parallax na home
 definir as imagens do slider e formatá-las no mesmo
 decidir cor/imagem de background do site como um todo
-definir a imagem da torre eiffel que será usada como parallax na home
-criar as páginas serviço, história e marcação
-    definir os textos usados na página contando a história;
-    definir os textos usados na página de serviços;
-    definir os textos usados na página de marcação.
+
+criar as páginas:
+    home;
+    serviço;
+    história;
+    marcação.
+        definir os textos usados na página de serviços;
+        definir os textos usados na página contando a história;
+        definir os textos usados na página de marcação.
+
 definir as imagens a serem usadas para exibir os serviços fornecidos pelo salão
 definir ícones e(ou) imagens a serem usadas na página de marcação no salão
 definir ícones e(ou) imagens a serem suadas na página contando a história do salão
