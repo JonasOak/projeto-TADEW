@@ -1,7 +1,7 @@
 criar o header
 criar a barra de navegação
 criar o footer
-definir a imagem da torre eiffel que será usada como parallax na home
+definir a imagem da torre eiffel que será usada como parallax na home - FEITO
 definir as imagens do slider e formatá-las no mesmo
 decidir cor/imagem de background do site como um todo
 
