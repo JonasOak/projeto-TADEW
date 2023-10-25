@@ -1,4 +1,4 @@
-criar o header
+criar o header - Feito, mas falta a logo do salão de beleza
 criar a barra de navegação
 criar o footer
 definir a imagem da torre eiffel que será usada como parallax na home - FEITO
