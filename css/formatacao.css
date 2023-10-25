@@ -27,6 +27,18 @@
     overflow: hidden;
 }
 
+#linha-footer {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+/*
+.col-3 {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+*/
+
 .nav-header {
     width: 73px;
 }
@@ -34,6 +46,16 @@
 .nav-header-home {
     width: 53px;
 }
+
+.icones-footer {
+    width: 32px;
+    color: #000;
+}
+
+.icones-footer:hover {
+    color: #1d1919 !important; /* Substitua com a cor desejada */
+  }
+  
 
 
 html {
