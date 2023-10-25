@@ -9,6 +9,24 @@
     padding: 0;
 }
 
+.nav-header {
+    width: 73px;
+}
+
+.nav-header-home {
+    width: 53px;
+}
+
+.logo-home {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+
 html {
     scroll-behavior: smooth;
 }
