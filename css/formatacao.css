@@ -2,11 +2,29 @@
     background-image: url(../arquivos/imagens/slides/torreEiffel.png);
     height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 50% 100%;
     margin: 0;
     padding: 0;
+}
+
+.logo-home {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo-footer {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .nav-header {
@@ -17,14 +35,6 @@
     width: 53px;
 }
 
-.logo-home {
-    width: 100%;
-    max-width: 230px;
-    height: auto;
-    background-size: cover;
-    border-radius: 50%;
-    overflow: hidden;
-  }
 
 html {
     scroll-behavior: smooth;
