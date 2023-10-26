@@ -1,3 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-bottom: .8em;
+}
+
+body {
+    background-color: #e3e3e3;
+}
+
 .parallax-home1 {
     background-image: url(../arquivos/imagens/slides/torreEiffelParallax1.png);
     height: 30vh;
@@ -22,7 +34,7 @@
 
 .logo-home {
     width: 100%;
-    max-width: 230px;
+    max-width: 200px;
     height: auto;
     background-size: cover;
     border-radius: 50%;
@@ -68,11 +80,3 @@
   }
   
 
-
-html {
-    scroll-behavior: smooth;
-}
-
-:target {
-    scroll-margin-bottom: .8em;
-}
