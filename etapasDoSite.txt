@@ -1,9 +1,9 @@
-criar o header - Feito, mas falta a logo do salão de beleza
-criar a barra de navegação
-criar o footer
+criar o header - FEITO
+criar a barra de navegação - Feito, mas falta linkar as seções da home
+criar o footer - FEITO
 definir a imagem da torre eiffel que será usada como parallax na home - FEITO
-definir as imagens do slider e formatá-las no mesmo
-decidir cor/imagem de background do site como um todo
+definir as imagens do slider e formatá-las no mesmo - FEITO
+decidir cor/imagem de background do site como um todo - FEITO
 
 criar as páginas:
     home;
