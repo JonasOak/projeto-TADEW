@@ -1,6 +1,17 @@
-.parallax-home {
-    background-image: url(../arquivos/imagens/slides/torreEiffel.png);
-    height: 100vh;
+.parallax-home1 {
+    background-image: url(../arquivos/imagens/slides/torreEiffelParallax1.png);
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax-home2 {
+    background-image: url(../arquivos/imagens/slides/torreEiffelParallax2.png);
+    height: 30vh;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
