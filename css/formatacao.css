@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,8 +9,32 @@ html {
 }
 
 body {
+    font-family: Montserrat, sans-serif;
     background-color: #e3e3e3;
 }
+
+nav {
+    overflow: hidden;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  #scroll-to-top a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+.nav-link:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
 
 .parallax-home1 {
     background-image: url(../arquivos/imagens/slides/torreEiffelParallax1.png);
@@ -50,7 +76,7 @@ body {
 }
 
 #linha-footer {
-    border-right: 1px solid #000;
+    border-right: 1px solid #000000;
     padding-right: 10px;
 }
 
