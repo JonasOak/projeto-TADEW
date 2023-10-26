@@ -17,6 +17,11 @@ nav {
     overflow: hidden;
 }
 
+.img-slider {
+    width: 1920px;
+    height: 550px;
+}
+
 #scroll-to-top {
     position: fixed;
     bottom: 20px;
