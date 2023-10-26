@@ -108,5 +108,17 @@ nav {
 .icones-footer:hover {
     color: #1d1919 !important;
   }
-  
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+  height: 30px;
+  margin-top: 16%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 16%;
+}

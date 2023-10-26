@@ -11,35 +11,120 @@
 </head>
 <body>
 
-    <!-- Header -->
-    <div class="container-fluid m-auto p-0 mt-3">
-        <header class="d-flex flex-wrap justify-content-center">
-            <div class="row col-md-9 col-xl-10 col-xxl-10">
-                <p class="col-5 col-sm-5 col-md-7 fa-4x col-xl-8 col-xxl-9 m-auto text-black px-1 d-flex align-items-center justify-content-center text-center mb-3 ml-4 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <img class="logo-home" src="/arquivos/icones/logoSalao.png" alt="">
-                </p>
-                <ul class="d-flex nav col-12 mb-2 align-items-center justify-content-end mb-md-0">
-                    <div class="col-3 d-flex justify-content-center">
-                        <li><a href="/paginas/home.html" class="nav-link nav-header-home px-1 link-dark">Home</a></li>
-                    </div>
-                    <div class="col-3 d-flex justify-content-center">
-                        <li><a href="/paginas/servico.html" class="nav-link nav-header px-1 link-dark">Serviços</a></li>
-                    </div>
-                    <div class="col-3 d-flex justify-content-center">
-                        <li><a href="/paginas/marcacao.html" class="nav-link nav-header px-1 link-dark">Marcação</a></li>
-                    </div>
-                    <div class="col-3 d-flex justify-content-center text-center">
-                        <li><a href="/paginas/historia.html" class="nav-link nav-header px-1 link-dark">Sobre nós</a></li>
-                    </div>
+        <!-- Header -->
+        <div class="container-fluid m-auto p-0 mt-3">
+            <header class="d-flex flex-wrap justify-content-center" id="header">
+                <div class="row col-md-9 col-xl-10 col-xxl-10">
+                    <p class="col-5 col-sm-5 col-md-7 fa-4x col-xl-8 col-xxl-9 m-auto text-black px-1 d-flex align-items-center justify-content-center text-center mb-3 ml-4 mb-md-0 me-md-auto text-dark text-decoration-none">
+                        <img class="logo-home" src="/arquivos/icones/logoSalao.png" alt="">
+                    </p>
+                    <b>
+                        <ul class="d-flex nav col-12 mb-2 align-items-center justify-content-end mb-md-0 p-0">
+                            <div class="col-3 d-flex justify-content-center">
+                                <li><a href="/paginas/home.html" class="nav-link nav-header-home px-1 link-dark">Home</a></li>
+                            </div>
+                            <div class="col-3 d-flex justify-content-center">
+                                <li><a href="/paginas/servico.html" class="nav-link nav-header px-1 link-dark">Serviços</a></li>
+                            </div>
+                            <div class="col-3 d-flex justify-content-center">
+                                <li><a href="/paginas/marcacao.html" class="nav-link nav-header px-1 link-dark">Marcação</a></li>
+                            </div>
+                            <div class="col-3 d-flex justify-content-center text-center">
+                                <li><a href="/paginas/historia.html" class="nav-link nav-header px-1 link-dark">Sobre nós</a></li>
+                            </div>
+                        </ul>
+                    </b>
+                </div>
+            </header>
+        </div>
+    
+        <!-- Navbar -->
+        <!-- Uso exclusivo para a home -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Marcação</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nós</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </header>
-    </div>
-
-    <!-- conteúdo -->
-    <div class="parallax-home">
-        <h1 class="text-center mt-5">HOME</h1>
-        <p style="margin-bottom: 2cm;"></p>
+          </nav>
+    
+        <!-- Slider -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/arquivos/imagens/slides/corteCabelo.jpg" class="img-slider d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 15%;">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-4 alert alert-light opacity-75">
+                            <h2>Corte de cabelo</h2>
+                          </div>
+                          <div class="col-7">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/arquivos/imagens/slides/escovaCabelo.jpg" class="img-slider d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 15%;">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-4 alert alert-light opacity-75">
+                            <h2>Escova</h2>
+                          </div>
+                          <div class="col-7">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/arquivos/imagens/slides/pesMaos.jpg" class="img-slider d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 15%;">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-4 alert alert-light opacity-75">
+                            <h2>Pé e mão</h2>
+                          </div>
+                          <div class="col-7">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+        <!-- Parallax -->
+        <div class="parallax-home1 img-fluid d-flex mt-2"></div>
+    
+        <!-- Conteúdo -->
+        <h1 class="text-center">TEXTO ALEATÓRIO</h1>
+        <a href="#header" id="scroll-to-top" class="bi bi-arrow-up-circle-fill"></a>
         <strong>
             <p class="col-11 m-auto" style="margin-top: 10mm;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -47,42 +132,69 @@
             <p class="col-11 m-auto" style="margin-bottom: 6mm;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+            <p class="col-11 m-auto" style="margin-top: 10mm;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="col-11 m-auto" style="margin-bottom: 6mm;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="col-11 m-auto" style="margin-top: 10mm;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="col-11 m-auto" style="margin-bottom: 6mm;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="col-11 m-auto" style="margin-top: 10mm;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="col-11 m-auto" style="margin-bottom: 6mm;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
         </strong>
-    </div>
     
-    <!-- Rodapé -->
-    <footer>
-        <div class="row col-12 mt-5 p-1 text-dark m-auto text-center" style="background-color: #c28a8b;">
-            <div class="row col-8 p-1 m-auto justify-content-start align-items-center" style="color: #000000;">
-                <div class="col-3" id="linha-footer">
-                    <img src="/arquivos/icones/logoSalaoFooter.png" class="logo-footer mt-3">
+        <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
+        <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
+        <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
+        <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
+    
+        <!-- Parallax -->
+        <div class="parallax-home2 img-fluid d-flex"></div>     
+        
+        <!-- Rodapé -->
+        <footer>
+            <div class="row col-12 mt-1 p-1 text-dark m-auto text-center" style="background-color: #c28a8b;">
+                <div class="row col-8  p-1 m-auto justify-content-start align-items-center" style="color: #000000;">
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-xl-3" id="linha-footer">
+                        <img src="/arquivos/icones/logoSalaoFooter.png" class="logo-footer mt-3">
+                    </div>
+                    <div class="col-xs-4 col-sm-5 col-md-4 col-lg-4 col-xl-3">
+                        <h2>Bonjour
+                            bienvenue!
+                        </h2>
+                    </div>
+                    <!--
+                    <div class="row col-7 col-sm-3 col-md-4 col-lg-5 col-xl-3 text-dark m-auto justify-content-end">
+                        <h6 style="color: #000000;">@ Copyright 2023. All Rights Reserved</h6>
+                    </div>
+                    -->
                 </div>
-                <div class="col-2">
-                    <!--<h2>Bonjour
-                        bienvenue!
-                    </h2>-->
-                    <h2>Centro de
-                        beleza
-                    </h2>
-                </div>
-                <div class="row col-4 text-dark m-auto justify-content-end">
-                    <h6 style="color: #000000;">@ Copyright 2023. All Rights Reserved</h6>
-                </div>
-            </div>
-            <div class="row col-4 p-1 text-dark m-auto">
-                <div class="col-10 row justify-content-end align-items-center">
-                    <div class="col-8" style="color: #000000;">
-                        <h5 class="mb-0">Venha conhecer nossas</h5>
-                        <h5 class="mb-1">outras redes</h5>
+                <div class="row col-4 p-1 text-dark m-auto">
+                    <div class="col-xs-9 col-sm-10 col-md-9 col-lg-10 col-xl-9 row justify-content-end align-items-center">
+                        <div class="col-xs-9 col-sm-12 col-md-12 col-lg-10 col-xl-8" style="color: #000000; padding-right: 50px;">
+                            <h5 class="mb-0">Conheça nossas outras redes</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-2 mt-2">
+                        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-2 ml-4 mt-2">
+                            <a href="https://www.instagram.com/lesampe/" target="_blank" class="bi bi-instagram icones-footer"></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-2 mt-2">
+                            <a href="https://encurtador.com.br/dhjo8" target="_blank" class="bi bi-whatsapp icones-footer" style="width: 23px;"></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <p><a href="https://www.instagram.com/lesampe/" target="_blank" class="bi bi-instagram fa-2x icones-footer"></a></p>
-                    <p><a href="https://encurtador.com.br/dhjo8" target="_blank" class="bi bi-whatsapp fa-2x icones-footer"></a></p>
-                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
