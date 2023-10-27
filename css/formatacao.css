@@ -18,22 +18,28 @@ nav {
 }
 
 .img-slider {
-    width: 1920px;
+    max-width: 100%;
     height: 550px;
 }
 
+@media (max-width: 235px) {
+    .img-slider {
+      height: 100px;
+    }
+  }
+
 #scroll-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 4%;
+    right: 1%;
   }
   
   #scroll-to-top a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 10%;
     color: #ffffff;
     background-color: #000000;
-    padding: 10px;
+    padding: 1%;
     border-radius: 50%;
   }
 
@@ -43,7 +49,7 @@ nav {
 
 .parallax-home1 {
     background-image: url(../arquivos/imagens/slides/torreEiffelParallax1.png);
-    height: 30vh;
+    height: 35vh;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -54,7 +60,7 @@ nav {
 
 .parallax-home2 {
     background-image: url(../arquivos/imagens/slides/torreEiffelParallax2.png);
-    height: 30vh;
+    height: 35vh;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -77,13 +83,30 @@ nav {
     max-width: 200px;
     height: auto;
     background-size: cover;
-    overflow: hidden;
 }
 
-#linha-footer {
-    border-right: 1px solid #000000;
-    padding-right: 10px;
+@media (max-width: 200px) {
+    .logo-footer {
+      margin: 0;
+    }
+  }
+
+.linha-footer {
+    border-right: 2px solid #000000;
+    padding-right: 1%;
 }
+
+  @media (max-width: 200px) {
+    .texto-footer {
+      display: none;
+    }
+  }
+
+  @media (max-width: 243px) {
+    .texto-redes {
+      display: none;
+    }
+  }
 
 /*
 .col-3 {
@@ -93,15 +116,15 @@ nav {
 */
 
 .nav-header {
-    width: 73px;
+    max-width: 100%;
 }
 
 .nav-header-home {
-    width: 53px;
+    max-width: 100%;
 }
 
 .bi.icones-footer {
-    font-size: 24px;
+    font-size: 150%;
     color: #000;
 }
 
