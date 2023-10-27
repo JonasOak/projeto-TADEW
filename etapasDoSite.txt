@@ -6,7 +6,7 @@ definir as imagens do slider e formatá-las no mesmo - FEITO
 decidir cor/imagem de background do site como um todo - FEITO
 
 criar as páginas:
-    home;
+    home; - Em andamento
     serviço;
     história;
     marcação.
