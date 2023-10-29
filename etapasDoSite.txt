@@ -1,5 +1,5 @@
 criar o header - FEITO
-criar a barra de navegação - Feito, mas falta linkar as seções da home
+criar a barra de navegação - FEITO
 criar o footer - FEITO
 definir a imagem da torre eiffel que será usada como parallax na home - FEITO
 definir as imagens do slider e formatá-las no mesmo - FEITO
