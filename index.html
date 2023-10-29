@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/estilos_gerais.css">
     <link rel="stylesheet" href="/css/formatacao_site.css">
+    <script src="/js/efeitos.js"></script>
     <title>Home</title>
 </head>
 <body>
@@ -71,7 +72,7 @@
                 <div class="container">
                     <div class="row">
                       <div class="col-4 alert alert-light opacity-75">
-                        <h2>Corte de cabelo</h2>
+                        <h2><a href="/paginas/servico.html">Corte de cabelo</a></h2>
                       </div>
                       <div class="col-7">
                       </div>
@@ -121,39 +122,102 @@
     <!-- Parallax -->
     <div class="parallax-home1 img-fluid d-flex mt-2"></div>
 
-    <!-- Conteúdo -->
-    <h1 class="text-center">TEXTO ALEATÓRIO</h1>
-    <strong>
-        <p class="col-11 m-auto" style="margin-top: 10mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p class="col-11 m-auto" style="margin-bottom: 6mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p class="col-11 m-auto" style="margin-top: 10mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p class="col-11 m-auto" style="margin-bottom: 6mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p class="col-11 m-auto" style="margin-top: 10mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p class="col-11 m-auto" style="margin-bottom: 6mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p class="col-11 m-auto" style="margin-top: 10mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p class="col-11 m-auto" style="margin-bottom: 6mm;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-    </strong>
+    <h2 class="text-center mt-5">Veja alguns de nossos serviços!</h2>
 
-    <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
-    <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
-    <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
-    <h1 class="text-center mt-5">TEXTO ENTRE PARALLAX</h1>
+    <!-- Conteúdo -->
+    <div class="container-fluid d-flex m-autos p-0 mt-1 mb-5 justify-content-center">
+      <div class="row text-center opacity-100" style="background-color: #d0d0d0;">
+    
+        <!-- Serviço 1 -->
+        <div class="text-center col-md-6 mt-5">
+          <p>
+            <img src="/arquivos/imagens/equipe/cabelo.png" alt="Descrição da Imagem" class="icones-servicos" data-bs-target="#info1" onmouseover="aplicarZoom(this)"  onmouseout="removerZoom(this)" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 1 -->
+          <div class="collapse collapse-horizontal" id="info1">
+            <div class="card card-body" style="width: 200px; margin: auto;">
+              <div class="row">
+                <div class="col-6">
+                  <img src="/arquivos/icones/logoSalaoFooter.png" class="d-flex justify-content-center mt-3 text-center" style="width: 100%;">
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                  <h6>Odeio front-end 1</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Serviço 2 -->
+        <div class="text-center col-md-6 mt-5">
+          <p>
+            <img src="/arquivos/imagens/equipe/piercing.png" alt="Descrição da Imagem" class="icones-servicos" data-bs-toggle="collapse" onmouseover="aplicarZoom(this)"  onmouseout="removerZoom(this)" data-bs-target="#info2" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 2 -->
+          <div class="collapse collapse-horizontal" id="info2">
+            <div class="card card-body" style="width: 200px; margin: auto;">
+              <div class="row">
+                <div class="col-6">
+                  <img src="/arquivos/icones/logoSalaoFooter.png" class="d-flex justify-content-center mt-3 text-center" style="width: 100%;">
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                  <h6>Odeio front-end 2</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Serviço 3 -->
+        <div class="text-center col-md-6 mt-5">
+          <p>
+            <img src="/arquivos/imagens/equipe/pele.png" alt="Descrição da Imagem" class="icones-servicos" data-bs-toggle="collapse" onmouseover="aplicarZoom(this)"  onmouseout="removerZoom(this)" data-bs-target="#info3" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 3 -->
+          <div class="collapse collapse-horizontal" id="info3">
+            <div class="card card-body mb-3" style="width: 200px; margin: auto;">
+              <div class="row">
+                <div class="col-6">
+                  <img src="/arquivos/icones/logoSalaoFooter.png" class="d-flex justify-content-center mt-3 text-center" style="width: 100%;">
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                  <h6>Odeio front-end 3</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Serviço 4 -->
+        <div class="text-center col-md-6 mt-5">
+          <p>
+            <img src="/arquivos/imagens/equipe/manicure.png" alt="Descrição da Imagem" class="icones-servicos" data-bs-toggle="collapse" onmouseover="aplicarZoom(this)"  onmouseout="removerZoom(this)" data-bs-target="#info4" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 4 -->
+          <div class="collapse collapse-horizontal" id="info4">
+            <div class="card card-body mb-3" style="width: 200px; margin: auto;">
+              <div class="row">
+                <div class="col-6">
+                  <img src="/arquivos/icones/logoSalaoFooter.png" class="d-flex justify-content-center mt-3 text-center" style="width: 100%;">
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                  <h6>Odeio front-end 4</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+    <h2 class="text-center m-auto">TEXTÃO DE HOME</h2>
+    <h2 class="text-center m-auto">TEXTÃO DE HOME</h2>
+    <h2 class="text-center m-auto">TEXTÃO DE HOME</h2>
+    <h2 class="text-center m-auto">TEXTÃO DE HOME</h2>
+    <h2 class="text-center m-auto">TEXTÃO DE HOME</h2>
+    <h2 class="text-center m-auto">TEXTÃO DE HOME</h2>
+    <h2 class="text-center m-auto">TEXTÃO DE HOME</h2>
 
     <!-- Parallax -->
     <div class="parallax-home2 img-fluid d-flex"></div>     
