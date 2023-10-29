@@ -8,9 +8,10 @@ html {
     scroll-margin-bottom: .8em;
 }
 
-body {
+body, .card {
     font-family: Montserrat, sans-serif;
     background-color: #e3e3e3;
+    overflow-x: hidden;
 }
 
 nav {
@@ -74,4 +75,3 @@ color: #1d1919 !important;
     display: none;
 }
 }
-
