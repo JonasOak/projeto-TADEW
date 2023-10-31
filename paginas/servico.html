@@ -36,7 +36,76 @@
           </b>
         </header>
     </div>
-
+    <style>
+        .card-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        .card {
+          flex: 1;
+          max-width: 300px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          margin: 10px;
+          cursor: pointer;
+          transition: transform 0.2s;
+        }
+        .card:hover {
+          transform: scale(1.05);
+        }
+        .card img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 4px;
+        }
+        .card-content {
+          display: none;
+          margin-top: 10px;
+        }
+        .card.active .card-content {
+          display: block;
+        }
+      </style>
+      </head>
+      <body>
+        <div class="card-container">
+          <div class="card" onclick="toggleCard(1)">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.riachuelo.com.br%2Fdicas-de-beleza%2Fcortes-femininos%2F&psig=AOvVaw0FH7-4p15-GFPAy4JvgVbr&ust=1698805269170000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOD9vPqcn4IDFQAAAAAdAAAAABAE" alt="Imagem 1">
+            <div class="card-content">
+              <h3>Corte de Cabelo</h3>
+              <p>Os cortes de cabelo refletem estilo e personalidade. Do clássico ao ousado, a escolha do corte pode transformar o visual, realçando traços e destacando a individualidade. Valor do serviso, depende do corte.</p>
+            </div>
+          </div>
+          <div class="card" onclick="toggleCard(2)">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <div class="card-content">
+              <h3>Podologia</h3>
+              <p>A podologia trata da saúde e estética dos pés, prevenindo e tratando diversas condições. Essa prática promove o bem-estar e a mobilidade dos pacientes.</p>
+            </div>
+          </div>
+          <div class="card" onclick="toggleCard(3)">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <div class="card-content">
+              <h3>Estetica</h3>
+              <p>A estética busca realçar a beleza e promover bem-estar. Profissionais oferecem tratamentos para pele, cabelo e corpo, elevando a autoestima. Através de procedimentos como limpezas de pele e massagens, contribui para o equilíbrio emocional e físico.</p>
+            </div>
+          </div>
+          <div class="card" onclick="toggleCard(4)">
+            <img src="imagem4.jpg" alt="Imagem 4">
+            <div class="card-content">
+              <h3>Piercing</h3>
+              <p>I"Piercing é uma forma de expressão pessoal através da inserção de joias no corpo. Popular em áreas como orelhas, nariz e lábios, requer cuidados e higiene rigorosos. É uma maneira única de expressar estilo e individualidade."</p>
+            </div>
+          </div>
+        </div>
+      
+        <script>
+          function toggleCard(cardNumber) {
+            var card = document.querySelector('.card:nth-child(' + cardNumber + ')');
+            card.classList.toggle('active');
+          }
+        </script>
     <!-- conteúdo -->
 
     
