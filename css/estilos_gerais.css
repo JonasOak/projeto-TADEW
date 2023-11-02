@@ -137,3 +137,25 @@
     margin-right: auto;
   }
 }
+
+/* Formatação localização */
+.botao-consultas {
+  margin: 0;
+}
+
+.mapa-localizacao {
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .botao-consultas {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .mapa-localizacao {
+    height: 30%;
+  }
+}
