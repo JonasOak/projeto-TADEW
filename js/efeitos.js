@@ -37,3 +37,9 @@ function initMap() {
   document.addEventListener('DOMContentLoaded', function() {
     initMap();
   });  
+
+/* Efeito cards aba serviços */
+function toggleCard(cardNumber) {
+  var card = document.querySelector('.card:nth-child(' + cardNumber + ')');
+  card.classList.toggle('active');
+}  
