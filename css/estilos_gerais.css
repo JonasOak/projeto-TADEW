@@ -32,6 +32,12 @@
   }
 }
 
+@media (max-width: 5000px) {
+  .img-slider {
+    height: 20%;
+  }
+}
+
 
 /* Formatação para o parallax da home */
 
