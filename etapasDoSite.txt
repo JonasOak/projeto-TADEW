@@ -6,14 +6,14 @@ definir as imagens do slider e formatá-las no mesmo - FEITO
 decidir cor/imagem de background do site como um todo - FEITO
 
 criar as páginas:
-    home; - FINALIZADA (falta aplicar responsividade em alguns containers)
-    serviço;
+    home; - FINALIZADA
+    serviço - FINALIZADA
     história;
     marcação.
-        definir os textos usados na página de serviços;
+        definir os textos usados na página de serviços - FEITO
         definir os textos usados na página contando a história;
         definir os textos usados na página de marcação.
 
-definir as imagens a serem usadas para exibir os serviços fornecidos pelo salão
-definir ícones e(ou) imagens a serem usadas na página de marcação no salão
-definir ícones e(ou) imagens a serem suadas na página contando a história do salão
+definir as imagens a serem usadas para exibir os serviços fornecidos pelo salão - FEITO
+definir ícones e(ou) imagens a serem usadas na página de marcação no salão;
+definir ícones e(ou) imagens a serem suadas na página contando a história do salão.
