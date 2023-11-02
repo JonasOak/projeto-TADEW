@@ -1,3 +1,10 @@
+.texto-justificado {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* Css para o slider */
 
 .img-slider {
@@ -6,21 +13,25 @@
 }
 
 @media (max-width: 800px) {
-    .img-slider {
-      height: 30%;
-    }
-    .carousel-control-prev,
-    .carousel-control-next {
-      display: none;
-    }
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      display: none;
-    }
-    .carousel-indicators {
-      display: none;
-    }
+  .img-slider {
+    height: 30%;
+  }
+  .img-sobre-nos {
+    display: none;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-indicators {
+    display: none;
+  }
 }
+
 
 /* Formatação para o parallax da home */
 
@@ -73,4 +84,56 @@
 .icones-servicos {
   width: 50px;
   cursor: pointer;
+}
+
+.img-botao-servicos {
+  max-width: 100%;
+}
+
+.img-sobre-nos {
+  max-width: 50%;
+}
+
+.servicos {
+  width: 280px;
+  margin: auto;
+}
+
+.img-servicos {
+  margin: 0;
+}
+
+@media (max-width: 550px) {
+  .servicos {
+    width: 90%;
+  }
+}
+@media (max-width: 300px) {
+  .servicos {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px ) {
+  .img-servicos {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .img-botao-servicos {
+    max-width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 444px) {
+  .img-botao-servicos {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
