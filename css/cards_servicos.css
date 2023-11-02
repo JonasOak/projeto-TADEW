@@ -1,0 +1,45 @@
+.card {
+    flex: 0 0 calc(50% - 20px); /* Cada card ocupa metade da largura disponível com 20 pixels de margem */
+    max-width: calc(35% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+@media (max-width: 500px) {
+    .card {
+        max-width: 400%;
+    }
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.card-content {
+    display: none;
+    margin-top: 10px;
+}
+.card.active .card-content {
+    display: block;
+}
+
+#espaco-para-texto {
+    width: 40%;
+    height: 50%;
+    padding: 40px;
+}
+
+#espaco-para-texto h2 {
+    color: black;
+}
+
+#espaco-para-texto p {
+    color: black;
+}
