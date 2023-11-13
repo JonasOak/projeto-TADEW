@@ -8,12 +8,12 @@ decidir cor/imagem de background do site como um todo - FEITO
 criar as páginas:
     home; - FINALIZADA
     serviço - FINALIZADA
-    história;
+    história - FINALIZADA
     marcação.
         definir os textos usados na página de serviços - FEITO
-        definir os textos usados na página contando a história;
-        definir os textos usados na página de marcação.
+        definir os textos usados na página contando a história - FEITO
+        definir os textos usados na página de marcação
 
 definir as imagens a serem usadas para exibir os serviços fornecidos pelo salão - FEITO
-definir ícones e(ou) imagens a serem usadas na página de marcação no salão;
-definir ícones e(ou) imagens a serem suadas na página contando a história do salão.
+definir ícones e(ou) imagens a serem usadas na página de marcação no salão
+definir ícones e(ou) imagens a serem suadas na página contando a história do salão - FEITO
