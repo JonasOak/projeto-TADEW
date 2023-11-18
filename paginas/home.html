@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +13,6 @@
   <link rel="stylesheet" href="../css/formatacao_site.css">
   <title>Home</title>
 </head>
-
 <body>
 
   <!-- Header -->
@@ -124,149 +122,150 @@
   <div class="parallax-home1 img-fluid d-flex mt-2"></div>
 
   <!-- Quem somos -->
-  <div class="px-4 pt-3 my-5 text-center border-bottom" id="sobreNos">
-    <h1 class="display-4 fw-bold">Sobre nós</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4 texto-justificado"><b>Somos um Centro de Beleza especializado no embelezamento, saúde e
-          auto-estima,
-          venha fazer parte da nossa família Lesampê. Nosso objetivo é proporcionar o melhor para você e sua família, o
-          autocuidado é extremamente importante, e o nosso papel é tornar possível.</b></p>
+  <main>
+    <div class="px-4 pt-3 my-5 text-center border-bottom" id="sobreNos">
+      <h1 class="display-4 fw-bold">Sobre nós</h1>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mx-auto">
+        <p class="lead mb-4 texto-justificado"><strong>Somos um Centro de Beleza especializado no embelezamento, saúde e auto-estima, venha fazer parte da nossa família Lesampê. Nosso objetivo é proporcionar o melhor para você e sua família, o autocuidado é extremamente importante, e o nosso papel é tornar possível.</strong></p>
+      </div>
+      <div class="overflow-hidden" style="max-height: 100vh;">
+        <div class="container px-5">
+          <img src="../arquivos/imagens/equipe/sobreNos.jpg"
+            class="img-sobre-nos img-fluid border rounded-3 shadow-lg mb-4" alt="Imagem apresentação" width="300"
+            height="300" loading="lazy">
+        </div>
+      </div>
     </div>
-    <div class="overflow-hidden" style="max-height: 100vh;">
-      <div class="container px-5">
-        <img src="../arquivos/imagens/equipe/sobreNos.jpg"
-          class="img-sobre-nos img-fluid border rounded-3 shadow-lg mb-4" alt="Imagem apresentação" width="300"
-          height="300" loading="lazy">
+
+    <!-- Serviços -->
+    <h2 id="servicos" class="text-center fw-bold pt-5 pb-5">Veja alguns de nossos serviços!</h2>
+
+    <div class="container-fluid d-flex m-autos px-4 py-5 mt-1 justify-content-center shadow-lg" style="width: 83%;">
+      <div class="row text-center opacity-100 " style="background-color: #d0d0d0; width: 80%;">
+
+        <!-- Serviço 1 -->
+        <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5">
+          <p>
+            <img src="../arquivos/imagens/equipe/cabelo.png" alt="Descrição da Imagem" class="icones-servicos"
+              data-bs-target="#info1" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
+              data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 1 -->
+          <div class="collapse" id="info1">
+            <div class="servicos card card-body">
+              <div class="row">
+                <div class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
+                  <img src="../arquivos/icones/logoSalaoFooter.png"
+                    class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
+                </div>
+                <div
+                  class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
+                  <h5><b>
+
+                      Serviços de Cabelo</b></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 2 -->
+        <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5">
+          <p>
+            <img src="../arquivos/imagens/equipe/piercing.png" alt="Descrição da Imagem" class="icones-servicos"
+              data-bs-toggle="collapse" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
+              data-bs-target="#info2" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 2 -->
+          <div class="collapse" id="info2">
+            <div class="servicos card card-body">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
+                  <img src="../arquivos/icones/logoSalaoFooter.png"
+                    class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
+                </div>
+                <div
+                  class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
+                  <h5><b>
+                      Body Piercing
+                    </b></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 3 -->
+        <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5 mb-2">
+          <p>
+            <img src="../arquivos/imagens/equipe/pele.png" alt="Descrição da Imagem" class="icones-servicos"
+              data-bs-toggle="collapse" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
+              data-bs-target="#info3" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 3 -->
+          <div class="collapse" id="info3">
+            <div class="servicos card card-body">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
+                  <img src="../arquivos/icones/logoSalaoFooter.png"
+                    class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
+                </div>
+                <div
+                  class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
+                  <h5><b>
+                      Estética em geral
+                    </b></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 4 -->
+        <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5 mb-2">
+          <p>
+            <img src="../arquivos/imagens/equipe/manicure.png" alt="Descrição da Imagem" class="icones-servicos"
+              data-bs-toggle="collapse" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
+              data-bs-target="#info4" aria-expanded="false" aria-controls="collapse1">
+          </p>
+          <!-- Conteúdo para o Botão 4 -->
+          <div class="collapse" id="info4">
+            <div class="servicos card card-body">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
+                  <img src="../arquivos/icones/logoSalaoFooter.png"
+                    class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
+                </div>
+                <div
+                  class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
+                  <h5><b>Nail Design</b></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
-
-  <!-- Serviços -->
-  <h2 id="servicos" class="text-center fw-bold pt-5 pb-5">Veja alguns de nossos serviços!</h2>
-
-  <div class="container-fluid d-flex m-autos px-4 py-5 mt-1 justify-content-center shadow-lg" style="width: 83%;">
-    <div class="row text-center opacity-100 " style="background-color: #d0d0d0; width: 80%;">
-
-      <!-- Serviço 1 -->
-      <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5">
-        <p>
-          <img src="../arquivos/imagens/equipe/cabelo.png" alt="Descrição da Imagem" class="icones-servicos"
-            data-bs-target="#info1" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
-            data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse1">
-        </p>
-        <!-- Conteúdo para o Botão 1 -->
-        <div class="collapse" id="info1">
-          <div class="servicos card card-body">
-            <div class="row">
-              <div class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
-                <img src="../arquivos/icones/logoSalaoFooter.png"
-                  class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
-              </div>
-              <div
-                class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
-                <h5><b>
-
-                    Serviços de Cabelo</b></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Serviço 2 -->
-      <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5">
-        <p>
-          <img src="../arquivos/imagens/equipe/piercing.png" alt="Descrição da Imagem" class="icones-servicos"
-            data-bs-toggle="collapse" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
-            data-bs-target="#info2" aria-expanded="false" aria-controls="collapse1">
-        </p>
-        <!-- Conteúdo para o Botão 2 -->
-        <div class="collapse" id="info2">
-          <div class="servicos card card-body">
-            <div class="row">
-              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
-                <img src="../arquivos/icones/logoSalaoFooter.png"
-                  class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
-              </div>
-              <div
-                class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
-                <h5><b>
-                    Body Piercing
-                  </b></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Serviço 3 -->
-      <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5 mb-2">
-        <p>
-          <img src="../arquivos/imagens/equipe/pele.png" alt="Descrição da Imagem" class="icones-servicos"
-            data-bs-toggle="collapse" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
-            data-bs-target="#info3" aria-expanded="false" aria-controls="collapse1">
-        </p>
-        <!-- Conteúdo para o Botão 3 -->
-        <div class="collapse" id="info3">
-          <div class="servicos card card-body">
-            <div class="row">
-              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
-                <img src="../arquivos/icones/logoSalaoFooter.png"
-                  class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
-              </div>
-              <div
-                class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
-                <h5><b>
-                    Estética em geral
-                  </b></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Serviço 4 -->
-      <div class="text-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5 mb-2">
-        <p>
-          <img src="../arquivos/imagens/equipe/manicure.png" alt="Descrição da Imagem" class="icones-servicos"
-            data-bs-toggle="collapse" onmouseover="aplicarZoom(this)" onmouseout="removerZoom(this)"
-            data-bs-target="#info4" aria-expanded="false" aria-controls="collapse1">
-        </p>
-        <!-- Conteúdo para o Botão 4 -->
-        <div class="collapse" id="info4">
-          <div class="servicos card card-body">
-            <div class="row">
-              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img-servicos">
-                <img src="../arquivos/icones/logoSalaoFooter.png"
-                  class="d-flex justify-content-center img-botao-servicos mt-3 text-center" style="width: 100%;">
-              </div>
-              <div
-                class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
-                <h5><b>Nail Design</b></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
+  </main>
 
   <!-- Localização -->
-  <div class="container col-xxl-8 px-4 py-5" id="localizacao">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-lg-6">
-        <h3 class="display-5 fw-bold lh-1 mb-3">Venha nos visitar!</h3>
-        <p class="lead texto-justificado">Rua Machado Monteiro - Bairro Machado - N33 B</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-          <a href="marcacao.html" class="botao-consultas btn btn-primary btn-lg px-3">Consultas</a>
+  <section id="#localizacao">
+    <div class="container col-xxl-8 px-4 py-5" id="localizacao">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <h3 class="display-5 fw-bold lh-1 mb-5">Venha nos visitar!</h3>
+          <p class="lead texto-justificado"><strong>Rua Machado Monteiro - Bairro Machado - N°33 B</strong></p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-left">
+            <a href="marcacao.html" class="botao-consultas btn btn-primary btn-lg px-3">Consultas</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6">
+          <div id="map" class="mapa-localizacao" style="height: 400px; width: 100%;"></div>
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-lg-6">
-        <div id="map" class="mapa-localizacao" style="height: 400px; width: 100%;"></div>
-      </div>
     </div>
-  </div>
+  </section>
 
   <!-- Parallax -->
   <div class="parallax-home2 img-fluid d-flex"></div>
@@ -311,12 +310,7 @@
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzya9k76dOAwNimRWOlkWjY_pgHCv4k24"></script>
   <script src="../js/efeitos.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
-
 </html>
