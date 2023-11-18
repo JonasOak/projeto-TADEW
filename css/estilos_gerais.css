@@ -32,6 +32,7 @@
   }
 }
 
+
 /* Formatação para o parallax da home */
 
 .parallax-home1 {
@@ -64,7 +65,9 @@
   }
 }
 
+
 /* Formatação usada no slider */
+
 .carousel-control-prev,
 .carousel-control-next {
   width: 30px;
@@ -79,7 +82,9 @@
   margin-top: 12%;
 }
 
+
 /* Formatação usada nos serviços da home */
+
 .icones-servicos {
   width: 50px;
   cursor: pointer;
@@ -137,7 +142,9 @@
   }
 }
 
+
 /* Formatação localização */
+
 .botao-consultas {
   margin: 0;
 }
@@ -157,4 +164,16 @@
   .mapa-localizacao {
     height: 30%;
   }
+}
+
+/* Imagem sobre nós */
+.img-historia {
+  display: block;
+  margin: auto;
+  width: 50vh;
+  max-width: 50%;
+}
+
+.desgrama {
+  overflow: hidden;
 }
