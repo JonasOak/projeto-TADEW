@@ -9,11 +9,11 @@ criar as páginas:
     home; - FINALIZADA
     serviço - FINALIZADA
     história - FINALIZADA
-    marcação.
+    marcação - FINALIZADA
         definir os textos usados na página de serviços - FEITO
         definir os textos usados na página contando a história - FEITO
-        definir os textos usados na página de marcação
+        definir os textos usados na página de marcação - FEITO
 
 definir as imagens a serem usadas para exibir os serviços fornecidos pelo salão - FEITO
-definir ícones e(ou) imagens a serem usadas na página de marcação no salão
+definir ícones e(ou) imagens a serem usadas na página de marcação no salão - FEITO
 definir ícones e(ou) imagens a serem suadas na página contando a história do salão - FEITO
