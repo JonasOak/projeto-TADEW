@@ -1,6 +1,6 @@
 .card {
-    flex: 0 0 calc(50% - 20px); /* Cada card ocupa metade da largura disponível com 20 pixels de margem */
-    max-width: calc(35% - 20px);
+    flex: 0 0 calc(40% - 20px);
+    max-width: calc(40% - 20px);
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px;
@@ -8,9 +8,9 @@
     transition: transform 0.2s;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1700px) {
     .card {
-        max-width: 400%;
+        max-width: 400vh;
     }
 }
 
@@ -42,4 +42,14 @@
 
 #espaco-para-texto p {
     color: black;
+}
+
+span {
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    span {
+        display: none;
+    }
 }
