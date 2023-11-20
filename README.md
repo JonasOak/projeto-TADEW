@@ -2,11 +2,10 @@
 
 # Desenvolvedores
 
-<p>Breno Almeida</p>
-<p>Jonas Carvalho</p>
-<hr>
+- **Breno Almeida**
+- **Jonas Carvalho**
 
 ## Idealizadores
 
-<p>Joice Mariana</p>
-<p>Luis Breno</p>
+- Joice Mariana
+- Luis Breno
