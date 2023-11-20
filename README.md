@@ -1,4 +1,4 @@
-### Repositório destinado ao projeto da matéria de desenvolvimento de website do curso de anális e desenvolvimento de sistemas
+### Repositório destinado ao projeto da matéria de desenvolvimento de website do curso de análise e desenvolvimento de sistemas
 
 # Desenvolvedores
 
@@ -6,7 +6,7 @@
 <p>Jonas Carvalho</p>
 <hr>
 
-### Idealizadores
+## Idealizadores
 
 <p>Joice Mariana</p>
 <p>Luis Breno</p>
