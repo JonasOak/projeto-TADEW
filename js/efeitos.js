@@ -18,6 +18,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Ler mais e ler menos
+function alternarTexto(event) {
+  var textoCompleto = document.getElementById("textoCompleto");
+  var lerMais = document.getElementById("lerMais");
+  var inicio = window.scrollY || window.pageYOffset;
+
+  if (textoCompleto.style.display === "none" || textoCompleto.style.display === "") {
+    textoCompleto.style.display = "inline";
+    lerMais.textContent = "Ler Menos";
+  } else {
+    textoCompleto.style.display = "none";
+    lerMais.textContent = "Ler Mais...";
+  }
+  window.scrollTo(0, inicio);
+  event.preventDefault();
+}
+
 // Localização no google maps
 function initMap() {
     var myLatLng = {lat: -12.933844305394144, lng: -38.50172459197853};
