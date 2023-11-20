@@ -4,6 +4,7 @@
 
 <p>Breno Almeida</p>
 <p>Jonas Carvalho</p>
+<hr>
 
 ### Idealizadores
 
