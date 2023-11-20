@@ -5,6 +5,8 @@
 - **Breno Almeida**
 - **Jonas Carvalho**
 
+<hr>
+
 ## Idealizadores
 
 - Joice Mariana
